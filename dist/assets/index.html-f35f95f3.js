@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ba4d2fb4","path":"/en/train/eda/chip-circuit/","title":"Chip Circuit","lang":"zh-CN","frontmatter":{"title":"Chip Circuit","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"iEDA","license":"GPL-3.0"}}');export{e as data};

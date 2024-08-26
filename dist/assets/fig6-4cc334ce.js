@@ -1,0 +1,1 @@
+const t="/res/images/activities/contest/openDACS-23-t1/fig2.png",s="/res/images/activities/contest/openDACS-23-t1/fig3.png",i="/res/images/activities/contest/openDACS-23-t1/fig4.png",e="/res/images/activities/contest/openDACS-23-t1/fig5.png",o="/res/images/activities/contest/openDACS-23-t1/fig6.png";export{t as _,e as a,o as b,s as c,i as d};

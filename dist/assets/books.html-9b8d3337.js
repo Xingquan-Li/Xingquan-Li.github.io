@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as n,d as t}from"./app-1ed3f6c2.js";const c={},s=t("p",null,"Under planning. Fundamentals and Practice of Electronic Design Automation",-1),a=[s];function r(_,l){return o(),n("div",null,a)}const m=e(c,[["render",r],["__file","books.html.vue"]]);export{m as default};
