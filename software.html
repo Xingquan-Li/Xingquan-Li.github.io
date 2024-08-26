@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="icon" href="images/home/lxq-icon.jpg">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Software</title> --->
+<title>Xingquan Li</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">Xingquan Li</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
+<div class="menu-item"><a href="index.html"|3>Home</a></div>
+<div class="menu-category">MENU</div>
+<div class="menu-item"><a href="project.html"|3>Project</a></div>
+<div class="menu-item"><a href="publication.html"|3>Publication</a></div>
+<div class="menu-item"><a href="course.html"|3>Course</a></div>
+<div class="menu-item"><a href="activity.html"|3>Activity</a></div>
+<div class="menu-item"><a href="presentation.html"|3>Presentation</a></div>
+<div class="menu-item"><a href="software.html" class="current"|3>Software</a></div>
+<div class="menu-item"><a href="team.html"|3>Team</a></div>
+<div class="menu-category">LINKS</div>
+<div class="menu-item"><a href="conference.html"|3>Conference</a></div>
+<div class="menu-item"><a href="journal.html"|3>Journal</a></div>
+<div class="menu-item"><a href="contest.html"|3>Contest</a></div>
+<div class="menu-item"><a href="open-source.html"|3>Open-source</a></div>
+<div class="menu-item"><a href="tips.html"|3>Tips</a></div>
+<div class="menu-item"><a href="http://www.google.com Open in New Tab"|3></a></div>
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
+<div id="toptitle">
+<h1>Software</h1>
+</div>
+<h2>iEDA</h2>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=9u3S-D_Wha4">UCIntegrity App</a></p>
+</li>
+</ul>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=KLRFoHk9IHY">iCONCUR</a></p>
+</li>
+</ul>
+<p>Here is <a href="dist/jemdoc.py"
+onclick="javascript:urchinTracker('/downloads/jemdoc.py');">jemdoc.py</a>
+(<tt>v0.7.3</tt>). You can also download this <a href="dist/jemdoc.css">example css
+file</a> to get you started. You can easily modify the css to adjust colours, fonts
+and general layout elements to your taste. </p>
+<p>You may like to <tt>sudo cp jemdoc.py /usr/bin/jemdoc</tt>
+so that you can just type
+<tt>jemdoc</tt>; alternatively, you could add a line to your <tt>~/.bashrc</tt> or
+similar like <tt>alias jemdoc='/somepath/jemdoc.py'</tt>. Remember to <tt>chmod +x</tt> your
+file to make it executable.</p>
+<p>jemdoc requires Python&nbsp;2.3 or later. If you have a working installation of
+Python, you should be ready to go. This includes all Macs, and almost any
+fairly modern unix or linux.</p>
+<p><a href="dist/">Old versions</a> can still be found. Mahesh Shastry provides a package with
+<a href="http://www.personal.psu.edu/mcs312/miscellany.html#portablejemdoc">jemdoc compiled for Windows</a>.</p>
+<h2>iFlow</h2>
+<p>Read about <a href="using.html">how to use jemdoc</a>, check out an <a href="example.html">example
+page</a>, then refer to the <a href="cheatsheet.html">cheat sheet</a> once you're underway.
+You could also download sample jemdoc code, like the <a href="index.jemdoc">index page</a>
+for this website.</p>
+<h2>iMAP-FPGA</h2>
+<p>jemdoc includes a mechanism for specifying options inside a source file. It is
+called a <i>modeline</i>, after the same concept in <a href="http://www.vim.org">vim</a>.  To use
+a modeline, start your jemdoc source file (on the first line) with the exact
+string <tt>#&nbsp;jemdoc:</tt>. Follow this string with one or more <i>modeline options</i>,
+separated with commas (and any amount of white space).</p>
+<p>Multiple modelines can be included if they are all at the beginning of the file,
+and start with the same string. The modeline can be omitted altogether.</p>
+<h2>AiEDA</h2>
+<h3>Extras</h3>
+<ul>
+<li><p><tt>analytics{ANALYTICS KEY}</tt><br />
+Adds Google Analytics support. The key is typically in the form
+<tt>UA-0000000-0</tt>. Sign up for Google Analytics
+<a href="http://www.google.com/analytics/">here</a>.</p>
+</li>
+</ul>
+<h3>Footers</h3>
+<ul>
+<li><p><tt>notime</tt><br />
+Withhold the time from the &lsquo;Page generated&rsquo; footer.</p>
+</li>
+<li><p><tt>nodate</tt><br />
+Withhold the date and the time from the &lsquo;Page generated&rsquo; footer.</p>
+</li>
+<li><p><tt>showsource</tt><br />
+Include a link, in the footer, to the jemdoc source.</p>
+</li>
+<li><p><tt>nofooter</tt><br />
+Withhold the footer altogether (overrides the above options).</p>
+</li>
+</ul>
+<h3>Equations</h3>
+<ul>
+<li><p><tt>noeqs</tt><br />
+Disable LaTeX equation support.</p>
+</li>
+<li><p><tt>eqsize{SIZE}</tt><br />
+Adjust the size of the equations (default <tt>130</tt>).</p>
+</li>
+<li><p><tt>eqdir{EQDIR}</tt><br />
+Adjust the equation directory (default <tt>eqs</tt>).</p>
+</li>
+<li><p><tt>noeqcache</tt><br />
+Disable equation caching.</p>
+</li>
+<li><p><tt>addpackage{LATEX_PACKAGE_NAME}</tt><br />
+Includes support for <tt>LATEX_PACKAGE_NAME</tt> when compiling the equations.</p>
+</li>
+</ul>
+<h2>Code Base</h2>
+<div class="codeblock">
+<div class="blocktitle">This page</div>
+<div class="blockcontent"><pre>
+# jemdoc: menu{MENU}{modelines.html}, showsource
+</pre></div></div>
+<div class="codeblock">
+<div class="blocktitle">Use a different stylesheet altogether</div>
+<div class="blockcontent"><pre>
+# jemdoc: nodefaultcss, addcss{custom.css}
+</pre></div></div>
+<div class="codeblock">
+<div class="blocktitle">Combine various options</div>
+<div class="blockcontent"><pre>
+# jemdoc: nodefaultcss, addcss{custom.css}{another.css}
+# jemdoc: showsource, addcss{yetanother.css}
+</pre></div></div>
+</div> <!-- <div id="layout-content"> -->
+<div id="footer-container">
+<div id="footer">
+<div id="footer-text">
+Last edited  on 2023-05-31 15:16:27 HKT. </br>
+Powered by <a href="https://github.com/szl2/jemdoc-new-design" target="blank">Xingquan Li</a>.
+</div> <!-- <div id="footer-text"> -->
+</div> <!-- <div id="footer"> -->
+</div> <!-- <div id="footer-container"> -->
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
+</body>
+</html>
