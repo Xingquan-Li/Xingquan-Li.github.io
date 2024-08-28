@@ -1,1 +1,0 @@
-const s="/res/images/practice/course/course1_3.png",c="/res/images/practice/course/course1_4.png",e="/res/images/practice/course/course1_5.png",r="/res/images/practice/course/course1_6.png",o="/res/images/practice/course/course1_7.png";export{s as _,c as a,e as b,r as c,o as d};

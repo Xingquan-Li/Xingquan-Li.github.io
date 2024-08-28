@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-1de85e9e","path":"/train/eda/eda-model/","title":"Eda Model","lang":"zh-CN","frontmatter":{"title":"Eda Model","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"iEDA","license":"GPL-3.0"}}');export{e as data};

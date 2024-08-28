@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c as t}from"./app-1ed3f6c2.js";const _={};function c(o,s){return r(),t("div")}const l=e(_,[["render",c],["__file","iMAP_release.html.vue"]]);export{l as default};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-027dc986","path":"/en/train/eda/algorithm-data/","title":"Algorithm Data","lang":"zh-CN","frontmatter":{"title":"Algorithm Data","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null,"excerpt":"","copyright":{"author":"iEDA","license":"GPL-3.0"}}');export{e as data};
