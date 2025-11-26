@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Xingquan Li - Software Projects">
     <title>Software - Xingquan Li</title>
+    <link rel="icon" href="images/my-logo1.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo"><a href="index.html" style="text-decoration: none; color: inherit;">Xingquan Li</a></div>
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/my-logo1.png" alt="Xingquan Li" style="width:8%; position: center; padding:-8px; margin: -8px;"></a>  
+                <a href="index.html" style="text-decoration: none; color: inherit;"> @ Xingquan Li</a>
+            </div>
             <ul class="nav-menu">
                 <li><a href="index.html#home" class="nav-link">Home</a></li>
-                <li><a href="index.html#about" class="nav-link">About</a></li>
-                <li><a href="index.html#research" class="nav-link">Research</a></li>
                 <li><a href="publication.html" class="nav-link">Publications</a></li>
                 <li><a href="software.html" class="nav-link active">Softwares</a></li>
-                <li><a href="index.html#education" class="nav-link">Education</a></li>
+                <li><a href="index.html#education" class="nav-link">Teaching</a></li>
                 <li><a href="index.html#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -29,7 +31,7 @@
         </div>
     </nav>
 
-    <section class="section" style="margin-top: 70px; padding-top: 40px;">
+    <section  id="software" class="section">
         <div class="container">
             <h2 class="section-title">Software Projects</h2>
             <div class="software-grid">
@@ -37,7 +39,7 @@
                     <div class="software-icon"> <img src="images/iEDA-wsy.png" alt="iEDA" style="width: 42%; object-fit: cover;">
                         <!-- <i class="fas fa-code-branch"></i> -->
                     </div>
-                    <h2>iEDA</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>iEDA</h2></a>
                     <p class="software-subtitle">An Open-Source Intelligent Physical Implementation Toolchain</p>
                     <p class="software-description">
                         iEDA is an open-source infrastructure for EDA. 
@@ -67,7 +69,7 @@
                     <div class="software-icon"> <img src="images/AiEDA-wsy.png" alt="AiEDA" style="width: 50%; object-fit: cover;">
                         <!-- <i class="fas fa-brain"></i> -->
                     </div>
-                    <h2>AiEDA</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>AiEDA</h2></a>
                     <p class="software-subtitle">An Open-Source AI-Aided Design Library for Design-to-Vector</p>
                     <p class="software-description">
                         AiEDA is an open-source AI-aided design library that enables design-to-vector conversion 
@@ -97,7 +99,7 @@
                     <div class="software-icon"> <img src="images/iPCL.png" alt="iPCL" style="width: 40%; object-fit: cover;">
                         <!-- <i class="fas fa-cogs"></i> -->
                     </div>
-                    <h2>iPCL</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>iPCL</h2></a>
                     <p class="software-subtitle">Large Layout Model for Chip Design</p>
                     <p class="software-description">
                         Pre-training for chip layout design, building a large foundation model specialized for chip layout design, achieving chip layout generation without any manual intervention and EDA tools.
@@ -118,84 +120,85 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="software-links-section" style="margin-top: 4rem;">
-                <h2 class="section-title" style="margin-bottom: 3rem;">Software Links</h2>
-                
-                <!-- Open-Source EDA (iEDA) -->
-                <div class="software-category">
-                    <h3 class="software-category-title">Open-Source EDA (iEDA)</h3>
-                    <ul class="software-list">
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/iEDA" target="_blank" rel="noopener" class="software-link software-link-title">iEDA</a>
-                            <p class="software-description">
-                                EDA infrastructure and RTL-GDS chip design tools: includes iNO, iFP, iPNP, iMP, iPL, iCTS, iTO, iRT, iIR, iSTA, iPA, iDRC and other tools.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/iFlow" target="_blank" rel="noopener" class="software-link software-link-title">iFlow</a>
-                            <p class="software-description">
-                                Automated chip back-end design process, supporting 130/110/55/28nm processes, from RTL-GDS automated back-end design.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/iMap" target="_blank" rel="noopener" class="software-link software-link-title">iMAP</a>
-                            <p class="software-description">
-                                FPGA process mapping tool, supporting the generation from AIG to Netlist.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/EDA-Parsers" target="_blank" rel="noopener" class="software-link software-link-title">iParsers</a>
-                            <p class="software-description">
-                                Parsers required for EDA standard formats, including verilog, liberty, sdc, spef, sdf, vcd.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+    <section id="software-links" class="section-alt">
+        <div class="container">
+            <h2 class="section-title">Software Links</h2>
+            <!-- Open-Source EDA (iEDA) -->
+            <div class="software-category">
+                <h3 class="software-category-title">Open-Source EDA (iEDA)</h3>
+                <ul class="software-list software-list-2col">
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/iEDA" target="_blank" rel="noopener" class="software-link software-link-title">iEDA</a>
+                        <p class="software-description">
+                            EDA infrastructure and RTL-GDS chip design tools: includes iNO, iFP, iPNP, iMP, iPL, iCTS, iTO, iRT, iIR, iSTA, iPA, iDRC and other tools.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/iFlow" target="_blank" rel="noopener" class="software-link software-link-title">iFlow</a>
+                        <p class="software-description">
+                            Automated chip back-end design process, supporting 130/110/55/28nm processes, from RTL-GDS automated back-end design.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/iMap" target="_blank" rel="noopener" class="software-link software-link-title">iMAP</a>
+                        <p class="software-description">
+                            ASIC/FPGA process mapping tool, supporting the generation from AIG to Netlist.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/EDA-Parsers" target="_blank" rel="noopener" class="software-link software-link-title">iParsers</a>
+                        <p class="software-description">
+                            Parsers required for EDA standard formats, including verilog, liberty, sdc, spef, sdf, vcd.
+                        </p>
+                    </li>
+                </ul>
+            </div>
 
-                <!-- Intelligent EDA (AiEDA) -->
-                <div class="software-category">
-                    <h3 class="software-category-title">Intelligent EDA (AiEDA)</h3>
-                    <ul class="software-list software-list-3col">
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/AiEDA" target="_blank" rel="noopener" class="software-link software-link-title">AiEDA</a>
-                            <p class="software-description">
-                                AI-aided design library, supporting data transformation, AI model training and application.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/AiEDA-models" target="_blank" rel="noopener" class="software-link software-link-title">AiEDA-models</a>
-                            <p class="software-description">
-                                A collection of AI models designed for different EDA tasks.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://huggingface.co/datasets/AiEDA/iDATA" target="_blank" rel="noopener" class="software-link software-link-title">iDATA</a>
-                            <p class="software-description">
-                                A labeled EDA dataset, includes source data, process data, feature data, foundation data, vector data.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Intelligent EDA (AiEDA) -->
+            <div class="software-category">
+                <h3 class="software-category-title">Intelligent EDA (AiEDA)</h3>
+                <ul class="software-list software-list-3col">
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/AiEDA" target="_blank" rel="noopener" class="software-link software-link-title">AiEDA</a>
+                        <p class="software-description">
+                            AI-aided design library, supporting data transformation, AI model training and application.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/AiEDA-models" target="_blank" rel="noopener" class="software-link software-link-title">AiEDA-models</a>
+                        <p class="software-description">
+                            A collection of AI models designed for different EDA tasks.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://huggingface.co/datasets/AiEDA/iDATA" target="_blank" rel="noopener" class="software-link software-link-title">iDATA</a>
+                        <p class="software-description">
+                            A labeled EDA dataset, includes source data, process data, feature data, foundation data, vector data.
+                        </p>
+                    </li>
+                </ul>
+            </div>
 
-                <!-- Foundation Models for Chip (iPCL) -->
-                <div class="software-category">
-                    <h3 class="software-category-title">Foundation Models for Chip (iPCL)</h3>
-                    <ul class="software-list">
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/iPCL-R" target="_blank" rel="noopener" class="software-link software-link-title">iPCL</a>
-                            <p class="software-description">
-                                A large foundation model specialized for chip layout design.
-                            </p>
-                        </li>
-                        <li class="software-list-item software-list-item-highlight">
-                            <a href="https://github.com/OSCC-Project/iMCP" target="_blank" rel="noopener" class="software-link software-link-title">iCA</a>
-                            <p class="software-description">
-                                An agent for chip design, supporting knowledge Q&A, document retrieval, information extraction, script generation, tool invocation, report analysis, parameter optimization, result summarization.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Foundation Models for Chip (iPCL) -->
+            <div class="software-category">
+                <h3 class="software-category-title">Foundation Models for Chip (iPCL)</h3>
+                <ul class="software-list">
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/iPCL-R" target="_blank" rel="noopener" class="software-link software-link-title">iPCL</a>
+                        <p class="software-description">
+                            A large foundation model specialized for chip layout design.
+                        </p>
+                    </li>
+                    <li class="software-list-item software-list-item-highlight">
+                        <a href="https://github.com/OSCC-Project/iMCP" target="_blank" rel="noopener" class="software-link software-link-title">iCA</a>
+                        <p class="software-description">
+                            An agent for chip design, supporting knowledge Q&A, document retrieval, information extraction, script generation, tool invocation, report analysis, parameter optimization, result summarization.
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>

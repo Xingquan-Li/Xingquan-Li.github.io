@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Xingquan Li - Academic Homepage">
     <title>Xingquan Li - Academic Homepage</title>
+    <link rel="icon" href="images/my-logo1.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo"><a href="index.html" style="text-decoration: none; color: inherit;">Xingquan Li</a></div>
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/my-logo1.png" alt="Xingquan Li" style="width:8%; position: center; padding:-8px; margin: -8px;"></a>  
+                <a href="index.html" style="text-decoration: none; color: inherit;"> @ Xingquan Li</a>
+            </div>
             <ul class="nav-menu">
-                <li><a href="index.html#home" class="nav-link">Home</a></li>
-                <li><a href="index.html#about" class="nav-link">About</a></li>
-                <li><a href="index.html#research" class="nav-link">Research</a></li>
+                <li><a href="index.html#home" class="nav-link active">Home</a></li>
                 <li><a href="publication.html" class="nav-link">Publications</a></li>
                 <li><a href="software.html" class="nav-link">Softwares</a></li>
-                <li><a href="index.html#education" class="nav-link">Education</a></li>
+                <li><a href="index.html#education" class="nav-link">Teaching</a></li>
                 <li><a href="index.html#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -32,11 +34,11 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Xingquan Li</h1>
+                <h1 class="hero-title">Xingquan Li (李兴权)</h1>
                 <p class="hero-subtitle">Associate Professor, PhD</p>
                 <p class="hero-description">
-                    Pengcheng Laboratory (PCL) | The Chinese University of Hong Kong (CUHK)<br>
-                    Research interests: EDA, AI for EDA, Machine Learning for Optimization
+                    Pengcheng Laboratory (PCL) | Chinese University of Hong Kong (CUHK)<br>
+                    Research interests: Electronic Design Automation (EDA), AI for EDA, AI for Algorithm Design
                 </p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -61,7 +63,7 @@
                         Dr. Xingquan Li is an associate professor at Pengcheng Laboratory (PCL). He received the Ph.D. degree from Fuzhou University in 2018. His research interests include Electronic Design Automation (EDA) and AI for EDA.
                     </p>
                     <p>
-                    His team has developed an open-source infrastructure of EDA (<a href="https://github.com/OSCC-Project" >iEDA</a>) and an AI-aided design library for EDA (<a href="https://huggingface.co/AiEDA" >AiEDA</a>). He has published over 70 papers in journals and conferences such as TCAD, TC, TVLSI, TODAES, SCIENCE CHINA, DAC, ICCAD, DATE, ICCD, ASP-DAC, ISPD, ISCAS, ISEDA, and NeurIPS, and has filed 13 invention patents.
+                    His team has developed an open-source infrastructure of EDA (<a href="https://github.com/OSCC-Project" >iEDA</a>) and an AI-aided design library for EDA (<a href="https://huggingface.co/AiEDA" >AiEDA</a>). He has published over 70 papers in journals and conferences such as TCAD, TC, TVLSI, TODAES, SCIENCE CHINA, DAC, ICCAD, DATE, ICCD, ASP-DAC, ISPD, ISCAS, ISEDA, and NeurIPS, and has filed 21 invention patents.
                     </p>
                     <p>
                         He has achieved first-place awards from ICCAD@CAD Contest three times in 2017, 2018, and 2022. In 2020, he was honored with the Operational Research Application Award from the Chinese Operations Research Society. In 2023, he received the Best Paper Award from ISEDA.
@@ -95,7 +97,7 @@
                     <div class="research-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>AI for EDA (AIEDA)</h3>
+                    <h3>AI for EDA (AI4EDA)</h3>
                     <p>Development of AI-aided design library (AiEDA) and vector dataset (iDATA), including machine learning models for design optimization, prediction, and automated design space exploration.</p>
                 </div>
                 <div class="research-card">
@@ -110,7 +112,7 @@
     </section>
 
 
-    <section class="section" style="margin-top: 70px; padding-top: 40px;">
+    <section id="software" class="section">
         <div class="container">
             <h2 class="section-title">Software Projects</h2>
             <div class="software-grid">
@@ -118,7 +120,7 @@
                     <div class="software-icon"> <img src="images/iEDA-wsy.png" alt="iEDA" style="width: 42%; object-fit: cover;">
                         <!-- <i class="fas fa-code-branch"></i> -->
                     </div>
-                    <h2>iEDA</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>iEDA</h2></a>
                     <p class="software-subtitle">An Open-Source Intelligent Physical Implementation Toolchain</p>
                     <p class="software-description">
                         iEDA is an open-source infrastructure for EDA. 
@@ -148,7 +150,7 @@
                     <div class="software-icon"> <img src="images/AiEDA-wsy.png" alt="AiEDA" style="width: 50%; object-fit: cover;">
                         <!-- <i class="fas fa-brain"></i> -->
                     </div>
-                    <h2>AiEDA</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>AiEDA</h2></a>
                     <p class="software-subtitle">An Open-Source AI-Aided Design Library for Design-to-Vector</p>
                     <p class="software-description">
                         AiEDA is an AI-aided design library that enables design-to-vector conversion 
@@ -178,7 +180,7 @@
                     <div class="software-icon"> <img src="images/iPCL.png" alt="iPCL" style="width: 40%; object-fit: cover;">
                         <!-- <i class="fas fa-cogs"></i> -->
                     </div>
-                    <h2>iPCL</h2>
+                    <a href="software.html#software-links" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;"><h2>iPCL</h2></a>
                     <p class="software-subtitle">Large Layout Model for Chip Design</p>
                     <p class="software-description">
                         Pre-training for chip layout design, building a large foundation model specialized for chip layout design, achieving chip layout generation without any manual intervention and EDA tools.
@@ -203,11 +205,12 @@
         </div>
     </section>
 
-    <section id="publications" class="section">
+    <section id="publications" class="section-alt">
         <div class="container">
             <h2 class="section-title">Recent Publications</h2>
             <p style="text-align: center; margin-bottom: 2rem;">
                 <a href="https://scholar.google.com/citations?user=JNoylQgAAAAJ&hl=en" target="_blank" style="color: var(--primary-color); text-decoration: none; font-weight: 600; margin-right: 2rem;">
+                    <img src="images/home/google.png" alt="Google Scholar" style="width: 18px; vertical-align: middle; margin-right: 0px;">
                     <i class="fab fa-google-scholar"></i> View on Google Scholar
                 </a>
                 <a href="publication.html" style="color: var(--primary-color); text-decoration: none; font-weight: 600;">
@@ -321,13 +324,13 @@
                         <p class="publication-venue">Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC), 2025 <strong>(CCF-C)</strong></p>
                     </div>
                 </div>                
-            <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
+            <div style="text-align: center; margin-top: 1.2rem; margin-bottom: 0.5rem;">
                 <a href="publication.html" class="btn btn-primary">View Full List of Publications (70+ papers)</a>
             </div>
         </div>
     </section>
 
-    <section id="education" class="section section-alt">
+    <section id="education" class="section section">
         <div class="container">
             <h2 class="section-title">Education</h2>
             <div class="education-timeline">
@@ -359,7 +362,7 @@
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section-alt">
         <div class="container">
             <h2 class="section-title">Contact</h2>
             <div class="contact-content">
@@ -394,8 +397,14 @@
                 </div>
                 <div class="social-links">
                     <a href="https://scholar.google.com/citations?user=JNoylQgAAAAJ&hl=en" class="social-link" target="_blank" rel="noopener">
-                        <i class="fab fa-google-scholar"></i>
-                        <span>Google Scholar</span>
+                        <!-- <i class="fab fa-google-scholar"></i> -->
+                        <img src="images/home/google.png" alt="Google Scholar" style="width: 32px; vertical-align: middle; margin-right: 0px;">
+                        <span>Google</span>
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Xingquan-Li" class="social-link" target="_blank" rel="noopener">
+                        <i class="fab fa-researchgate"></i>
+                        <!-- <img src="images/home/researchgate.png" alt="ResearchGate" style="width: 32px; vertical-align: middle; margin-right: 0px;"> -->
+                        <span>Research</span>
                     </a>
                     <a href="https://github.com/Xingquan-Li" class="social-link" target="_blank" rel="noopener">
                         <i class="fab fa-github"></i>
@@ -414,7 +423,7 @@
         </div>
     </section>
 
-    <section id="links" class="section section-alt">
+    <section id="links" class="section section">
         <div class="container">
             <h2 class="section-title">Related Links</h2>
             <div class="links-grid">
