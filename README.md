@@ -1,5 +1,6 @@
 # Academic Homepage - Xingquan Li
 
+xingquanli.aieda.cc
 https://Xingquan-Li.github.io/
 
 A modern, responsive academic homepage website.
